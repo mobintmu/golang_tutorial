@@ -1,6 +1,31 @@
 # Lesson one
 
 
+# install
+
+```
+https://go.dev/doc/install
+```
+
+```
+wget https://go.dev/dl/go1.23.0.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go 
+sudo tar -C /usr/local -xzf go1.23.0.linux-amd64.tar.gz
+
+```
+
+## add in bashrc
+
+```
+gedit ~/.bashrc
+
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
+
+source ~/.bashrc
+```
+
 
 ```
 go mod init
