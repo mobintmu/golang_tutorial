@@ -31,6 +31,7 @@ source ~/.bashrc
 go mod init
 go mod tidy
 go run main.go
+go version
 
 ```
 
