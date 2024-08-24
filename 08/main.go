@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang_tutorial/10/car"
+	"golang_tutorial/08/car"
 	"math"
 )
 
